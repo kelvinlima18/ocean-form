@@ -1,0 +1,33 @@
+.buttonContainer {
+  height: 60px;
+  max-width: 280px;
+  width: 100%;
+  border-radius: 42px;
+
+  border: 0;
+  background-color: transparent;
+  font-size: 1.25rem;
+  font-weight: 800;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-image: linear-gradient(to right, var(--green-10), var(--green-50));
+
+  transition: filter 0.4s;
+
+  &:hover {
+    filter: brightness(0.8);
+  }
+
+  svg {
+    height: 1.5rem;
+    width: 1.5rem;
+    color: #000;
+    margin-left: 0.5rem;
+  }
+}

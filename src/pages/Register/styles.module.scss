@@ -1,0 +1,55 @@
+.registerContainer {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 1rem 5rem;
+
+  .registerContent {
+    display: flex;
+    flex-direction: column;
+
+    span {
+      font-weight: 800;
+      font-size: 2.375rem;
+      background-image: linear-gradient(
+        to right,
+        var(--yellow-10),
+        var(--yellow-50)
+      );
+      background-clip: text;
+      -webkit-background-clip: text;
+      color: transparent;
+      line-height: 3.56rem;
+    }
+
+    h1 {
+      font-size: 3rem;
+      color: var(--white);
+      font-weight: 800;
+      line-height: 3.5rem;
+    }
+
+    p {
+      font-weight: 500;
+      font-size: 1rem;
+      margin-top: 1rem;
+    }
+
+    form {
+      display: flex;
+
+      div {
+        display: flex;
+        flex-direction: column;
+      }
+
+      input {
+        margin-top: 4rem;
+        width: 700px;
+      }
+
+      button {
+        margin: auto 0 0 auto;
+      }
+    }
+  }
+}

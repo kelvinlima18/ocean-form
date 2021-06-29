@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --white: #ffffff;
+
+  --yellow-10: #ffda15;
+  --yellow-50: #ffa115;
+
+  --green-10: #15ffab;
+  --green-50: #15f1ff;
+
+  --gray: #b5b2c7;
+
+  --red: #ff2358;
+}
+
+@media (max-widtth: 1080px) {
+  html {
+    font-size: 93.75%;
+  }
+}
+
+@media (max-widtth: 720px) {
+  html {
+    font-size: 87.5%;
+  }
+}
+
+body {
+  background: url('../assets/background.jpg');
+  background-size: cover;
+  color: var(--gray);
+}
+
+body,
+input,
+button,
+textarea,
+select {
+  font: 500 1rem 'Poppins', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}

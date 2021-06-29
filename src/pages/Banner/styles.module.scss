@@ -1,0 +1,86 @@
+.bannerContainer {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 5rem;
+
+  .bannerContent {
+    > span {
+      font-weight: 800;
+      font-size: 2.375rem;
+      background-image: linear-gradient(
+        to right,
+        var(--yellow-10),
+        var(--yellow-50)
+      );
+      background-clip: text;
+      -webkit-background-clip: text;
+      color: transparent;
+      line-height: 3.56rem;
+    }
+
+    h1 {
+      font-size: 3rem;
+      color: var(--white);
+      font-weight: 800;
+      line-height: 3.5rem;
+    }
+  }
+
+  .bannerTable {
+    margin-top: 4rem;
+    display: flex;
+    align-items: center;
+
+    td {
+      border-right: 1px solid var(--gray);
+      padding: 0 2rem;
+      text-align: center;
+
+      h2 {
+        font-size: 3rem;
+        font-weight: 600;
+        color: var(--white);
+      }
+
+      span {
+        font-size: 2rem;
+        font-weight: 600;
+      }
+    }
+
+    .live {
+      border-right: 0;
+      text-align: left;
+      line-height: 2rem;
+      display: flex;
+      flex-direction: column;
+      margin-top: 1rem;
+
+      span {
+        font-size: 1.4rem;
+        display: flex;
+      }
+
+      h1 {
+        font-weight: 600;
+        font-size: 3rem;
+        background-image: linear-gradient(
+          to right,
+          var(--yellow-10),
+          var(--yellow-50)
+        );
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+      }
+    }
+
+    :first-child {
+      padding-left: 0;
+    }
+
+    button {
+      margin-left: auto;
+    }
+  }
+}

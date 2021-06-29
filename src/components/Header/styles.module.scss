@@ -1,0 +1,38 @@
+.headerContainer {
+  height: 12.93rem;
+
+  .headerContent {
+    max-width: 1280px;
+    height: 12.93rem;
+    margin: 0 auto;
+    padding: 5rem;
+    display: flex;
+    align-items: center;
+
+    svg {
+      margin-left: 1rem;
+    }
+
+    .socialMedia {
+      margin-left: auto;
+      display: flex;
+      flex-direction: column;
+      text-align: right;
+
+      span {
+        color: var(--gray);
+      }
+
+      a {
+        color: var(--white);
+        font-size: 1.4rem;
+
+        transition: filter 0.4s;
+
+        &:hover {
+          filter: brightness(0.8);
+        }
+      }
+    }
+  }
+}
